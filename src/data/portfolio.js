@@ -60,6 +60,26 @@ export const portfolioData = {
     ],
     projects: [
         {
+            name: "RestrauBuddy",
+            subtitle: "AI-Powered Restaurant Management Ecosystem",
+            dates: "February 2026 – Present",
+            image: "/images/restraubuddy.png",
+            tags: ["React 19", "TypeScript", "Tailwind CSS", "Flask", "Python", "Machine Learning", "Supabase"],
+            links: {
+                demo: "https://restraubuddy.heeraljiwnani.com",
+                github: "https://github.com/Heeraljiwnani/RestrauBuddy.git"
+            },
+            description: [
+                "Developed RestrauBuddy, an end-to-end, AI-powered restaurant management ecosystem to help owners predict demand, minimize waste, and streamline daily operations.",
+                "Built a premium React 19 dashboard with TypeScript, Vite, and Tailwind CSS, featuring real-time demand visualization, a sleek dark-themed interface, and multilingual support.",
+                "Created a Flask-based Python API backend to serve continuous machine learning predictions to the frontend.",
+                "Implemented the machine learning core with data generation scripts and Random Forest model training pipelines for accurate demand forecasting.",
+                "Developed demand forecasting features to predict exact dish quantities based on historical trends, festivals, and customer footfall.",
+                "Enabled inventory optimization with automated insights to help maintain the perfect stock balance.",
+                "Integrated real-time synchronization using Supabase for data persistence and the Flask API for AI insights."
+            ]
+        },
+        {
             name: "OptaNex",
             subtitle: "Complete Eye Care Platform",
             dates: "December 2025 – Present",
